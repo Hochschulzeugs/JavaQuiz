@@ -15,7 +15,7 @@
 ---
 
 
-## PHP-API (JSON) (blackadn.de ist für dieses Beispiel zur Zeit nicht mehr verfügbar):
+## PHP-API (JSON) (blackdan.de ist für dieses Beispiel zur Zeit nicht mehr verfügbar):
 
 ###Abfragen:
 
