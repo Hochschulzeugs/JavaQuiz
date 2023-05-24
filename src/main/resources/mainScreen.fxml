@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <bottom>
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="263.0" layoutY="153.0" text="Wähle eine Kategorie aus:">
+               <font>
+                  <Font size="24.0" />
+               </font></Label>
+            <ButtonBar fx:id="buttonBar" layoutX="16.0" layoutY="228.0" prefHeight="144.0" prefWidth="769.0" />
+            <Button fx:id="buttonHighscores" layoutX="312.0" layoutY="492.0" mnemonicParsing="false" onAction="#buttonHandleHighscores" prefHeight="50.0" prefWidth="175.0" style="-fx-background-radius: 0;" text="Alle Highscores" />
+            <Button fx:id="buttonCreateCategory" layoutX="137.0" layoutY="492.0" mnemonicParsing="false" onAction="#buttonHandleCreateCategory" prefHeight="50.0" prefWidth="175.0" style="-fx-background-radius: 0;" text="Kategorie erstellen" textOverrun="CLIP" />
+            <Button fx:id="buttonCreateQnA" layoutX="487.0" layoutY="492.0" mnemonicParsing="false" onAction="#buttonHandleCreateQnA" prefHeight="50.0" prefWidth="175.0" style="-fx-background-radius: 0;" text="Fragen &amp; Antworten erstellen" />
+         </children>
+      </Pane>
+   </bottom>
+</BorderPane>

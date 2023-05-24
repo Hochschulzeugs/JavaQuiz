@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.uni_hannover.hci.group_3122.gui.LoginController">
+   <center>
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="userTextField" layoutX="196.0" layoutY="257.0" promptText="Username eingeben..." style="-fx-background-radius: 0;" />
+            <PasswordField fx:id="passwordField" layoutX="456.0" layoutY="257.0" promptText="Passwort eingeben..." style="-fx-background-radius: 0;" />
+            <Button fx:id="buttonLogin" layoutX="307.0" layoutY="347.0" mnemonicParsing="false" onAction="#buttonHandleLogin" prefHeight="50.0" prefWidth="183.0" style="-fx-background-radius: 0;" text="Log in" textAlignment="CENTER" textOverrun="CLIP">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Label fx:id="labelHeader" layoutX="371.0" layoutY="50.0" text="Login">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelPassword" layoutX="456.0" layoutY="227.0" text="Passwort">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelUsername" layoutX="196.0" layoutY="227.0" text="Benutzername">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="buttonBack" layoutX="351.0" layoutY="500.0" mnemonicParsing="false" onAction="#buttonHandleBack" prefHeight="50.0" prefWidth="100.0" style="-fx-background-radius: 0;" text="Zurück" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>
